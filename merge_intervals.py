@@ -4,7 +4,6 @@ def merge(intervals: List[List[int]]) -> List[List[int]]:
     if not intervals:
         return []
 
-    # Sort by start time
     intervals.sort(key=lambda x: x[0])
     merged = []
 
